@@ -1,0 +1,5 @@
+package tinygodis
+
+func main() {
+
+}
