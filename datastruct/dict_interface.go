@@ -1,4 +1,4 @@
-package dict
+package datastruct
 
 type Consumer func(key string, val interface{}) bool
 

@@ -1,4 +1,4 @@
-package string
+package datastruct
 
 type SimpleDynamicString struct {
 	Buffer []byte

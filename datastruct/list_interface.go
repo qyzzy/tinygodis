@@ -1,4 +1,4 @@
-package list
+package datastruct
 
 type LinkedList interface {
 	Len() int

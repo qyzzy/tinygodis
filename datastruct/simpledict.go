@@ -1,7 +1,13 @@
-package dict
+package datastruct
 
 type SimpleDict struct {
 	M map[string]interface{}
+}
+
+func MakeSimpleDict() *SimpleDict {
+	return &SimpleDict{
+		M: make(map[string]interface{}),
+	}
 }
 
 func (dict *SimpleDict) Get(key string) (interface{}, bool) {

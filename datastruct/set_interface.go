@@ -1,5 +1,4 @@
-package set
+package datastruct
 
 type HashSet interface {
-
 }

@@ -1,4 +1,4 @@
-package list
+package datastruct
 
 type List struct {
 	First, Last *Node
